@@ -16,6 +16,7 @@ struct node *newNode(int data)
     node->right = NULL;
     return (node);
 }
+
 /* function for traversing in inorder tree traversal */
 void inOrderTraversal(struct node * root){
     if(root == NULL){

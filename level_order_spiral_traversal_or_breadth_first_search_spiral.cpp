@@ -177,7 +177,7 @@ int main(){
     root->left->right = newNode(12);
     root->right->left = newNode(16);
     root->right->right = newNode(25);
-    iterativeHeight(root);
+    //iterativeHeight(root);
     SpiralLevelOrder(root);
 
 
